@@ -1,0 +1,45 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        //Double a Integer
+        
+        Double dob1= 3.14;
+        Integer dob1_inte = Double.valueOf(dob1).intValue();
+        System.out.println(dob1_inte);
+        
+        Double dob2= 2.8689;
+        Integer dob2_inte= Double.valueOf(dob2).intValue();
+        System.out.println(dob2_inte);
+        
+        Double dob3= 5.85;
+        Integer dob3_inte = Double.valueOf(dob3).intValue();
+        System.out.println(dob3);
+        
+        Double dob4 = 4.49;
+        Integer dob4_inte= Double.valueOf(dob4).intValue();
+        
+        Double dob5= 2.10;
+        Integer dob5_inte= Double.valueOf(dob5).intValue();
+        System.out.println(dob5_inte);
+        
+        
+        //Integer a double
+        
+        Integer ent1=1945;
+        Double ent1_dob =(double)ent1;
+        System.out.println(ent1_dob);
+        
+        Integer ent2=2010;
+        Double ent2_dob= (double)ent2;
+        System.out.println(ent2_dob);
+        
+        Integer ent3=218;
+        Double ent3_dob=(double)ent3;
+        System.out.println(ent3_dob);
+        
+        Integer ent4=684;
+        Double ent4_dob=(double)ent4;
+        System.out.println(ent4_dob);
+    }
+}

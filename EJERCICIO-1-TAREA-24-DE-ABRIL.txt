@@ -1,0 +1,42 @@
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        //Primer ejercicio
+        String frase= "Hola amiguibis";
+        Integer num=7;
+        Double dec=2.14;
+        Boolean decision=true;
+        
+        //Segundo Ejercicio
+        String frase1="Ya no me ";
+        String frase2= "repitas nada";
+        System.out.println(frase1 + frase2);
+        
+        //Tercer ejercicio
+        Double num1=17.00;
+        Double num2=25.00;
+        System.out.println ("La suma es " + (num1 + num2));
+        
+        //Cuarto ejercicio
+        //Entero a double
+        Integer valor1= 7;
+        Double aword = (double)valor1;
+        System.out.println(aword);
+        
+        //String a double
+        String numero="15.26";
+        Double word_num = Double.valueOf(numero);
+        System.out.println(word_num);
+        
+        //Double a String
+        Double valor= 2.16;
+        String concep= valor.toString();
+        System.out.println(concep);
+        
+        //Double a Integer
+        Double dob=5.56;
+        Integer dob_inte = Double.valueOf(dob).intValue();
+        System.out.println(dob_inte);
+    }
+}
