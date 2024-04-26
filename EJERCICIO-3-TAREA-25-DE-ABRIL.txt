@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+     Scanner scanner = new Scanner(System.in);
+     
+     System.out.print("Ingresa una vocal: ");
+     String vocal = scanner.nextLine();
+     
+     switch (vocal){
+     case "a":
+         System.out.print("Alambre");
+         break;
+     case "e":
+         System.out.print("Empezar");
+         break;
+     case "i":
+         System.out.print("Iguana");
+         break;
+     case "o":
+         System.out.println("Oso");
+         break;
+     case "u":
+         System.out.println("Uva");
+         break;
+     default:
+     System.out.println("No es una vocal");
+     break;
+     }
+     
+     
+    }
+}

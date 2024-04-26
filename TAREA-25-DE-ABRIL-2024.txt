@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("¿Con cuantos años de experiencia cuenta? :");
+        Integer exp=scanner.nextInt();
+        
+        if (exp >= 1 && exp <=5){
+            System.out.println("Principiante");
+        }
+        else if (exp >= 5 && exp <=10){
+         System.out.println("Intermedio");
+            }       
+        else if (exp > 10){
+            System.out.println("Experto");
+        }
+    }
+}
