@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese Si o No ");
+        String op = scanner.nextLine();
+        if (op.equals  ("si")){
+            System.out.println("Bienvenido");
+        }
+        else if (op.equals ("no")){
+            System.out.println("Adios");
+        }
+    }
+}

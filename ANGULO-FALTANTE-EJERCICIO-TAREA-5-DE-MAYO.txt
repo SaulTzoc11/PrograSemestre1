@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class MyProgram extends ConsoleProgram
+{
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el primer angulo: ");
+        double ang1 = scanner.nextDouble();
+        System.out.println("Ingrese el segundo angulo: ");
+        double ang2 = scanner.nextDouble();
+        double ang3 = 180 - ang1 - ang2;
+        System.out.println("El angulo faltante es de "+ ang3 + " grados");
+    }
+}

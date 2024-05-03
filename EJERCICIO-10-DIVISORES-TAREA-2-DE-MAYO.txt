@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class MyProgram extends ConsoleProgram{
+
+    public void run()
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese un numero");
+        Integer num = scanner.nextInt();
+        
+        for (int num1=1; num1<11; num1++){
+            int mult= num*num1;
+         System.out.println("Los multiplos de "+ num + " son " + mult);
+        }
+        scanner.close();
+    }
+}
